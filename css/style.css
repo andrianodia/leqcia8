@@ -1,3 +1,57 @@
-h2{
-	color: darkred;
+
+
+body{
+	background-image: url(https://toppng.com/uploads/preview/textured-backgrounds-for-websites-11553984842hbvetqjkg8.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+
+.track {
+	width:1600px ;
+	height:700px ;
+	margin-top: 100px;
+	margin-left: 100px;
+	display: block;
+	
 }
+
+.container{
+	position: relative;
+	width: 500px;
+
+}
+.car {
+	position: absolute;
+	top: 300px;
+	left: 1100px;
+	width: 600px;
+	animation: myfirst 6s infinite;
+    animation-timing-function: linear;
+    
+
+}
+.crowd{
+	position: absolute;
+	top: 15px;
+	left: 400px;
+	width: 1000px;
+	animation: mymove 1s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes mymove {
+  from {top: 30px;}
+  to {top: 5px;}
+}
+
+@keyframes myfirst {
+  from {left: 1100px;}
+  to {left: 100px;}
+}
+
+
+
+
+
